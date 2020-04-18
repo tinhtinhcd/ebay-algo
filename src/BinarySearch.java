@@ -1,3 +1,5 @@
+//Implement binary search.
+
 public class BinarySearch {
 
     public int searchIndexOfNum(int[] a, int k) {
