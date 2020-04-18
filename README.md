@@ -7,7 +7,7 @@ E.g. [1,2,-4,3,4,-1,4,5,-10], the result is sum([3,4,-1,4,5]) = 15. And how to d
 
 Q2. Given a list of binary trees, find the largest sum for a subtree.
 
-Q3. Implement binary search
+Q3. Implement binary search.
 
 Q4. Given an unsorted array and a target, return the minimum length of continuous subarray whose sum is greater than or equal to target.
 E.g. [1,2,3,1,4,3], target = 7, return 2, because the minimum length of continuous subarray is [4,3]
