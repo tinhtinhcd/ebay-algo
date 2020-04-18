@@ -6,7 +6,8 @@
 public class Main {
     public static void main(String[] args) {
         //runSubTreeSum();
-        arrayMaxContiguousSum();
+        //arrayMaxContiguousSum();
+        binarySearch();
     }
 
     // Given an unsorted integer array,
@@ -31,5 +32,13 @@ public class Main {
         root.right.right = new Node(2);
         SubtreeSum subtreeSum = new SubtreeSum();
         System.out.println(subtreeSum.findLargestSubtreeSum(root));
+    }
+
+    //implement binary search
+
+    public static void binarySearch() {
+        int[] a = {1, 3, 5, 6, 7, 9, 11, 23, 25, 27};
+        BinarySearch binarySearch = new BinarySearch();
+        System.out.println("index of k : " + binarySearch.searchIndexOfNum(a, 11));
     }
 }
