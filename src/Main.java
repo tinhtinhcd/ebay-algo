@@ -1,16 +1,15 @@
-import sun.plugin.javascript.navig.Array;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        //runSubTreeSum();
-        //arrayMaxContiguousSum();
+//        runSubTreeSum();
+//        arrayMaxContiguousSum();
 //        binarySearch();
 //        findSubsetSumByTarget();
-        findTimeRange();
+//        findTimeRange();
+        rotateArray();
     }
 
     // Given an unsorted integer array,
@@ -69,4 +68,12 @@ public class Main {
         System.out.println(Arrays.toString(searchRunningTimeRage.findTimeRange(input, 100)));
     }
 
+    //Given an array, rotate the array to the right by k steps, where k is non-negative.
+    //Example:
+    //Input: [1,2,3,4,5,6,7] and k = 3
+    //Output: [5,6,7,1,2,3,4]
+    public static void rotateArray(){
+        RotateArray rotateArray = new RotateArray();
+        System.out.println(Arrays.toString(rotateArray.rotate(new int[]{1,2,3,4,5,6,7}, 3)));;
+    }
 }
