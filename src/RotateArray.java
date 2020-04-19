@@ -4,6 +4,7 @@
 //Output: [5,6,7,1,2,3,4]
 
 // the requirement is In-place algorithm, so I will not create any new array or collection in the solution.
+// running time is O(nlogn) or O(n*2) still not check. need to improve.
 public class RotateArray {
 
     private int swap(int a, int b) {
