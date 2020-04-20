@@ -9,7 +9,8 @@ public class Main {
 //        binarySearch();
 //        findSubsetSumByTarget();
 //        findTimeRange();
-        rotateArray();
+//        rotateArray();
+        findMostFrequent();
     }
 
     // Given an unsorted integer array,
@@ -55,7 +56,7 @@ public class Main {
     //Given a list of running time range for a server with start time and end time, no overlap,
     // [[0,30], [35,40], .... , [100,104], [105, 110]], input a time point,
     // return check whether the server was running at that point
-    public static void findTimeRange(){
+    public static void findTimeRange() {
         List<int[]> input = new ArrayList<>();
         input.add(new int[]{0, 30});
         input.add(new int[]{35, 40});
@@ -72,8 +73,20 @@ public class Main {
     //Example:
     //Input: [1,2,3,4,5,6,7] and k = 3
     //Output: [5,6,7,1,2,3,4]
-    public static void rotateArray(){
+    public static void rotateArray() {
         RotateArray rotateArray = new RotateArray();
-        System.out.println(Arrays.toString(rotateArray.rotate(new int[]{1,2,3,4,5,6,7}, 3)));;
+        System.out.println(Arrays.toString(rotateArray.rotate(new int[]{1, 2, 3, 4, 5, 6, 7}, 3)));
+    }
+
+    //Given a non-empty array of integers, return the k most frequent elements.
+    //Example:
+    //Input: nums = [1,1,1,2,2,3], k = 2.
+    //Output: [1,2].
+    //Note:
+    //You may assume k is always valid, 1 = k = number of unique elements.
+    //Your algorithm's time complexity must be better than O(n log n), where n is the array's size.
+    public static void findMostFrequent() {
+        MostFrequent mostFrequent = new MostFrequent();
+        mostFrequent.findMostFrequent(new int[]{1, 1, 1, 2, 2, 3}, 2);
     }
 }
