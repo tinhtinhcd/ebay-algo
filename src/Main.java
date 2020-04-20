@@ -49,8 +49,8 @@ public class Main {
     // E.g. [1,2,3,1,4,3], target = 7, return 2, because the minimum length of continuous subarray is [4,3]
     public static void findSubsetSumByTarget() {
         int[] a = {1, 2, 3, 1, 4, 3, 7};
-        SubsetSum2 subsetSum2 = new SubsetSum2();
-        subsetSum2.findSubset(a, 7);
+        ContinuousSum continuousSum = new ContinuousSum();
+        continuousSum.findSubset(a, 7);
     }
 
     //Given a list of running time range for a server with start time and end time, no overlap,

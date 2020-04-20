@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // running time is O(n*2) => need to improve this algorithm
-public class SubsetSum2 {
+public class ContinuousSum {
 
     List<Integer> rs = new ArrayList<>();
 
