@@ -37,7 +37,6 @@ https://leetcode.com/problems/surrounded-regions/
 https://leetcode.com/problems/valid-parentheses/        
 https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/        
 https://leetcode.com/problems/house-robber/        
-https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/           
 https://leetcode.com/problems/permutations/       
 https://leetcode.com/problems/compare-version-numbers/        
 https://leetcode.com/problems/rotate-array/       
