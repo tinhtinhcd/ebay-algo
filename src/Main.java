@@ -87,6 +87,6 @@ public class Main {
     //Your algorithm's time complexity must be better than O(n log n), where n is the array's size.
     public static void findMostFrequent() {
         MostFrequent mostFrequent = new MostFrequent();
-        mostFrequent.findMostFrequent(new int[]{1, 1, 1, 2, 2, 3}, 2);
+        System.out.printf(Arrays.toString(mostFrequent.findMostFrequent(new int[]{1, 1, 1, 2, 2, 3}, 2)));
     }
 }
